@@ -1,0 +1,387 @@
+\documentclass[UTF8]{article} %article 文档
+\usepackage{ctex}  %使用宏包(为了能够显示汉字)
+\usepackage{lscape}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{amssymb}
+\usepackage{cases}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{mathtools}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{calc}
+\usepackage{arydshln}
+\usepackage[hidelinks]{hyperref}
+\usepackage{cite}
+
+\graphicspath{{image/}{figure/}{fig/}{img/}}
+
+\title{封闭腔内自然对流的数值模拟}  %文章标题
+\author{董仕豪，石子康，谭文娟}   %作者的名称
+\date{\today}       %日期
+% 设置页面的环境,a4纸张大小，左右上下边距信息
+\usepackage[a4paper,left=10mm,right=10mm,top=15mm,bottom=15mm]{geometry}
+\begin{document}
+\maketitle          %添加这一句才能够显示标题等信息
+%生成目录设置
+\tableofcontents
+
+\newpage
+
+\section{研究背景与意义}
+自然对流换热广泛地存在于大自然中，比如大气环流和城市热岛效应，由于在重力场、离心力场或其他力场的作用下，使得流体各部分之间产生温度差或者浓度差，进而形成高密度差，在浮升力驱动下使得流体产生流动的现象称为自然对流。
+封闭腔内自然对流是传热学理论中一个经典的模型，是从电子元器件冷却、核反应器设计、太阳能集热器、发动机腔体散热等诸多工程应用中抽象出来的。由于其在工程领域的广泛应用，对密闭腔体自然对流的研究具有重要意义。
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.5\textwidth]{sanre.jpg}
+  \caption{某公司自然对流黑色阳极铝挤工艺散热片}
+  \label{fig:sanre}
+\end{figure}
+
+\section{国内外研究现状}
+对长腔体内自然对流的二维流动现象，最早是由Batchelor\cite{RN1}教授于上世纪50年代提出的，建立了控制方程并提出了较粗略的求解方法。不久后，Poots\cite{RN2}基于Batchelor的控制方程发展了一个数值解法，当中假定数值解具有正交多项式形式。此后关于矩形封闭腔内自然对流的数值模拟研究就开始迅速增长。
+以往的数值模拟研究发现，矩形封闭腔内的自然对流与腔体高宽比、倾斜角、加热条件、流动模式、流体性质以及热辐射等均密切相关。
+
+\begin{itemize}
+    \item \textbf{腔体高宽比}
+    
+    Wikes\cite{RN3}数值模拟研究了不同高宽比的封闭腔体的二维自然对流现象，并绘制了等温线和流线图。Davis\cite{RN4}研究了高Ra数时不同高宽比腔体内的流动特征，发现高普朗特数(Pr)对数值求解具有稳定作用。Ben-Nakhi等研究了冬季大型建筑物内的共轭湍流自然对流换热现象，发现随Ra数增大，热量散失极具增长，并且高宽比越大，热效率越高。Kogawa\cite{RN5}等使用大涡模拟方法计算了对称加热竖直平板间的湍流自然对流现象，评估了窄缝间边界层发展的相互作用，描绘了流动产生的横向涡旋结构。
+    
+    \item \textbf{腔体倾斜角}
+    
+    Bairi等归纳了平行四边形腔体内的自然对流研究进展，总结了大量参数的影响效果，包括腔体的几何形状、高宽比、倾斜角、辐射特性、流体性质、热边界条件和热源分布等。Kuyper\cite{RN6}等二维模拟研究了$0~180^\circ$倾斜角方腔内的空气自然对流现象，发现努塞尔数(Nu)与方腔倾斜角存在强烈的依赖关系，Sharif等研究了侧壁加热腔在不同倾角下的二维自然对流模式，发现壁面平均努塞尔数(Nu)随倾角增大而降低，然而对流强度却持续升高，局部Nu数变化趋势在$45^\circ$前后发生改变。
+    
+    \item \textbf{加热条件}
+    
+    不同的加热条件对矩形封闭腔内的自然对流流动具有显著影响。Sharma\cite{RN7}等研究了方腔内底面局部加热、侧壁对称冷却情况下出的湍流自然对流，发现Ra相同时，等热流密度加热条件产生的流动强度低于等温加热条件，且具有函数关系$Nu~Ra^{0.334}$(等温加热)和$Nu~Ra^{0.233}$(等热流密度加热)。Fusegi使用两方程模型计算了侧壁加热腔内的湍流自然对流，发现加热模式会显著改变流场特点，且高温波动区比速度波动区更加深入腔体内部。Horvat等数值模拟了带内热源方腔的二维湍流自然对流，研究发现低Pr数会增强底部区换热，而高Pr数会增强侧壁和顶部区换热。Baudoin等和Bessaih等数值研究了多个内热源的冷却优化方法，研究发现增大加热组件的间距能够提升冷却效果，降低组件温度。本课题研究的两侧壁分处高低温、上下壁绝热的差异加热腔，是一种封闭腔体加热条件的典型案例。
+   
+    \item \textbf{流动模式}
+    
+    Barakos\cite{RN8}等使用控制体积法研究了差异方腔内自然对流基准问题。他们发现层流流动从$Ra=10^8$开始向湍流形态转变，沿着热壁面当流态转变为湍流后平均Nu数突然增大。Henkes等比较了典型差异加热方腔内的10组湍流自然对流模拟结果，得出了一个数值参考解，同时发现：与实验值相比，此参考解过度预测了平均壁面传热，但是竖直边界层内的速度值吻合较好。Hsieh等使用低雷诺数(Re)湍流模型数值求解了差异加热腔内的自然对流，发现水平壁面的热边界条件对于预测的Nu数分布具有很大影响。Taloub等使用LES方法模拟了差异加热矩形腔内Ra高达$10^{11}$的流动，研究发现三个速度分布区域，即导热区、过渡区和边界层。Terekhov等的研究表明尾端的边界层会导致了腔体内部二次流的形成，此外随着Ra数增大，流动转变为湍流，二次流对传热的影响逐渐减弱。
+    
+    \item \textbf{流体性质}
+    
+    封闭腔内流体性质同样对自然对流换热有影响作用。Vanaki\cite{RN9}等归纳总结了纳米流体对自然对流换热的强化作用，纳米颗粒的材料、形状、大小、浓度等均有不同的影响效果。Mesyngier\cite{RN10}等使用单一或混合气体介质对方腔内自然对流换热展开了研究，模拟得出了平均Nu数与Ra数的关联式，并且发现即便只有少量的水作为参与介质，换热仍然会被增强。
+    
+    \item\textbf{热辐射}
+    
+    Shati等数值研究了考虑热辐射情况下的矩形封闭腔自然对流，计算得出了自然对流强度与热辐射之间的关系。Sharma等发现腔体表面辐射会抑制自然对流，同时对流效应的减弱主要由辐射贡献来补偿。Fusegi等发现气体辐射会轻微减弱壁面传热，同时会导致流动和热边界层增厚。Xaman等发现受非等温壁面和腔内辐射交换的影响，流型呈非对称状。Ibrahim等通过耦合计算空气湍流自然对流与热辐射，发现壁面热辐射改变了热区和冷区的流动结构，但气体辐射对流动结构影响微小。Kogawa等的研究结果表明，气体和表面热辐射均会提高腔体内流动的不稳定性，并强化循环流动，表面辐射对湍流剪切应力的产生有促进作用。Velusamy等分析了矩形腔内表面辐射对透明介质自然对流的影响，发现表面热辐射能够提高边界层内的速度和湍流强度，同时研究结果表明长腔体内的平均Nu数存在3个明显的增长区域，即缓慢增长、加速增长和不变区\cite{RN11}。
+
+\end{itemize}
+
+\section{研究方法}
+
+计算流体力学与计算传热学问题的研究方法主要有理论分析、实验研究和数值计算三种方法。三者相辅相承、缺一不可\cite{RN12}。
+
+\subsection{理论分析}
+
+虽然许多复杂的传热学问题难以得出分析解，但分析解结果具有普遍性，各种影响因素清晰可见，便于从物理本质上认识传热规律，同时为比较实验和数值计算的精度提供理论依据，其在传热学中的作用不可忽视。
+
+\subsection{实验研究}
+
+实验研究是传热学最基本的研究方法。任何一种传热现象的基本数据都需要通过实验加以测定，通过实验数据拟合的实验关联式对直到工程实践具有重要意义。
+
+在实验方面，MacGregor和Emery做出了突出贡献，他们对封闭腔内层流自然对流情况(Ra数直至$10^5$)进行了实验研究，并通过实验结果给出了有关Nu数和Ra数之间的关系。国内学者袁旭东等人对建筑内自然对流气体形态进行了可视化的实验研究，模型为一个长方形房间，相对的两个壁面分别进行加热和冷却，顶部和底部绝热，试验发现高Ra数下，顶部和底部出现了两个漩涡。
+
+\subsection{数值计算}
+
+数值计算方法效率高，成本低，能模拟较复杂的工况，可以拓宽实验研究的范围，减少工作量，在科学与工程中具有广泛应用\cite{RN13}。
+
+\subsubsection{区域离散与控制方程建立}
+
+\begin{itemize}
+    \item \textbf{有限差分法(Finite Difference Method)}
+    
+    最古老也最容易实施的方法。将求解区域用网格线的交点(节点)所组成的点的集合来代替。在每个节点上，描述所研究的流动与传热偏微分方程中的每个导数项用相应的差分表达式来代替，从而在每个节点上形成一个代数方程，求解代数方程即获得所求温度场。但其离散方程的守恒性难以保证，而且对不规则区域的适应性差。
+    
+    \item \textbf{有限容积法(Finite Volume Method,FVM)}
+    
+    有限容积法从描写流动与传热的守恒型控制方程出发，对它在控制容积上作积分。在求解过程中需要对被求界面函数的本身(对流通量)及其一阶导数(扩散通量)的构成方式作出假设，这就形成了不同的格式。用有限容积法导出的离散方程可以保证具有守恒性，对区域形状的适应性好，是目前应用最普遍的一种数值方法之一。
+    
+    \item \textbf{有限元法(Finite Element Method(FDM)}
+    
+    有限元法把计算区域划分成一组离散的容积或者叫元体，然后通过积分来得到离散方程。它与有限容积法的主要区别在于：
+    
+    \par对那个元体都要选定一个形状函数(最简单的为线性函数)，通过元件中节点上被囚变量之值来表示形状函数，并在积分之前把所假设的形状函数带入到控制方程中去。
+    
+    \par控制方程在积分之前应乘上一个选定的权函数，并要求在整个区域上控制方程余量的加权平均值为零。
+   
+    \item \textbf{有限分析法(Finite Analytic Method,FAM)}
+    
+    有限分析法也是用一系列网格线将区域离散化，所不同的是在这里每个节点(网格线的交点)与其相邻的四个网格(二维问题)组成一个计算单元，即每一个计算单元由一个内点及相邻的八个点所组成。在计算单元内把控制方程的非线性项(如N-S方程中的对流项)局部线性化(即认为流速已知)，并对该单元边界上未知函数的变化型线作出假设，把所选定型线表达式中的常数或系数项用单元边界节点的函数值表示，这样在该单元内的被求问题转化成第一类边界条件下的问题，设法找出其分析解，并利用这一分析解找出单元的内节点及八个邻点上未知函数值之间的代数关系式，建立内节点的离散方程\cite{RN13}。
+
+\end{itemize}
+
+\subsubsection{代数方程求解}
+
+在求解过程中，有三种常见的压力-速度耦合方式，分别是：SIMPLE格式，SIMPLEC格式和PISO格式，本次课题拟采用SIMPLE算法。
+SIMPLE算法属于压力修正法中的一种，其核心是“猜测-修正”的过程，在交错网格的基础上来计算压力场，从而达到求解动量方程的目的。
+
+\section{问题描述与分析}
+封闭腔内自然对流的数值模拟需要进行一定的简化计算，才能方便的解出工程允许误差范围内的结果。
+
+\subsection{模型建立}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.2\textwidth]{model_new.png}
+  \caption{封闭腔自然对流简化模型(上下底面绝热，侧壁恒温)}
+  \label{fig:model}
+\end{figure}
+如图，考虑一个矩形方腔，上下边界绝热，左右边界等温。初始时内部流体静止且为左右两壁的平均温度。求之后的流体速度、温度分布随时间的变化，且考虑该系统稳态时的速度温度分布。
+响应的动量方程可以写为：
+\begin{gather}
+  \frac{\partial u}{\partial t} + u \frac{\partial u}{\partial x} + v \frac{\partial u}{\partial y} = -g_x \beta (\theta-\theta_0) - \frac{1}{\rho} \frac{\partial p}{\partial x}+\nu(\frac{\partial^2 u}{\partial x^2}+\frac{\partial^2 u}{\partial y^2}) \\
+  \frac{\partial v}{\partial t} + u \frac{\partial v}{\partial x} + v \frac{\partial v}{\partial y} = -g_y \beta (\theta-\theta_0) - \frac{1}{\rho} \frac{\partial p}{\partial y}+\nu(\frac{\partial^2 v}{\partial x^2}+\frac{\partial^2 v}{\partial y^2})
+\end{gather}
+基于Boussinesq假设可以简化流体物性的影响：
+\begin{itemize}
+  \item 流体中的粘性耗散忽略不计；
+  \item 除密度外其它物性为常数；
+  \item 对密度仅考虑动量方程中与质量力有关的项，其余各项中的密度亦作为常数。
+\end{itemize}
+列出能量方程如下：
+\begin{equation}
+  \frac{\partial \theta}{\partial t} + u \frac{\partial \theta}{\partial x} + v \frac{\partial \theta}{\partial y} = \alpha(\frac{\partial^2 \theta}{\partial x^2}+\frac{\partial^2 \theta}{\partial y^2})
+\end{equation}
+初始及边界条件为：
+\begin{gather}
+  t=0,0\le x\le l,0\le y\le h:u=v=0,\theta=\frac{\theta_H+\theta_L}{2}\\
+  x=0:u=v=0,\theta=\theta_H\\
+  x=l:u=v=0,\theta=\theta_L\\
+  y=0，h:u=v=0,\frac{\partial \theta}{\partial y}=0
+\end{gather}
+为方便计算，将变量无量纲如下：
+\begin{equation}
+  \begin{gathered}
+    \tau=\frac{t\alpha}{h^2},X=\frac{x}{h},Y=\frac{y}{h},r=\frac{l}{h}\\
+    U=\frac{uh}{\alpha},V=\frac{vh}{\alpha},P=\frac{ph^2}{\rho \alpha^2}\\
+    T=\frac{\theta-\frac{\theta_H+\theta_L}{2}}{\theta_H-\theta_L}
+  \end{gathered}
+\end{equation}
+无量纲结果如下：
+\begin{gather}
+  \frac{\partial U}{\partial \tau} + U \frac{\partial U}{\partial X} + V \frac{\partial U}{\partial Y} = -Gr_x T - \frac{\partial P}{\partial X}+Pr(\frac{\partial^2 U}{\partial X^2}+\frac{\partial^2 U}{\partial Y^2}) \\
+  \frac{\partial V}{\partial \tau} + U \frac{\partial V}{\partial X} + V \frac{\partial V}{\partial Y} = -Gr_y T - \frac{\partial P}{\partial Y}+Pr(\frac{\partial^2 V}{\partial X^2}+\frac{\partial^2 v}{\partial Y^2}) \\
+  \frac{\partial T}{\partial \tau} + U \frac{\partial T}{\partial X} + V \frac{\partial T}{\partial Y} = \frac{\partial^2 T}{\partial X^2}+\frac{\partial^2 T}{\partial Y^2}
+\end{gather}
+初始和边界条件同样无量纲化如下：
+\begin{gather}
+  \tau=0,0\le X\le r,0\le Y\le 1:U=V=0,T=0\\
+  X=0:U=V=0,T=0.5\\
+  X=r:U=V=0,T=-0.5\\
+  Y=0,1:U=V=0,\frac{\partial T}{\partial Y}=0
+\end{gather}
+
+\subsection{Matlab数值计算}
+若用数值方法直接求解控制方程，由于压力耦合在两个动量方程中，压力项的处理较为复杂。
+为了解决因压力导致的流场求解困难，可使用非原始变量法，通过交叉微分，从动量方程中消去压力，得到涡量和流函数作为新的变量求解流场。
+但该方法在壁面上的涡量值很难给定，且三维问题中情况比求解原始变量更复杂。
+因此目前工程中使用最广泛的是分离式解法，即顺序地、逐个地求解各变量代数方程组，而目前使用最为广泛的是1972年由Patanker和Splding提出的SIMPLE算法。
+其主要思想是在每一时间步长的运算中，先给出压力场的初始猜测值，据此求出伪速度场，再求解压力修正方程，对猜测的压力场和速度场进行修正。
+主要步骤如下：
+\begin{itemize}
+  \item 假定初始压力场
+  \item 利用压力场求解动量方程，得到速度场
+  \item 利用速度场求解连续方程，修正压力场
+  \item 求解其他标量方程（本题中即温度方程）
+  \item 判断是否收敛，若收敛则计算下一时间步的物理量。若不收敛则返回第二步
+\end{itemize}
+
+\subsubsection{交错网格}
+为了准确表征非均匀压力场离散后对动量方程的作用，一般使用交错网格将控制体离散化。
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\textwidth]{jaggered_mesh.png}
+  \caption{交错网格}
+  \label{fig:mesh}
+\end{figure}
+如图\ref{fig:mesh}，交错网格法将标量存储于网格节点上，而将速度的各分量在错位后的网格上存储和计算，错位后的网格中心位于原控制体积的界面上，分别用于存储$p$,$u$,$v$。
+其中主控制体积为$P$的控制体积，$U$在东西界面上定义和存储，$V$在南北界面上定义和存储
+压力节点与$U$界面一致，这样可使用相邻节点的压力差表征压力梯度：
+\begin{gather}
+  \begin{gathered}
+    \frac{\partial P}{\partial X}=\frac{P_E-P_W}{dX}\\
+    \frac{\partial P}{\partial Y}=\frac{P_N-P_S}{dY}
+  \end{gathered}
+\end{gather}
+之后计算标量方程时，使用插值即可得到主节点处的$U$，$V$。
+
+\subsubsection{动量方程的离散求解}
+交错网格的完整编码系统如图所示\ref{fig:meshgrid}，其中实心圆点为主控制节点，虚线为主控制体积界面。
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{whole_mesh.png}
+  \caption{交错网格完整编码}
+  \label{fig:meshgrid}
+\end{figure}
+将动量方程离散后便可以按照SIMPLE的计算流程进行迭代求解。
+计算流程如\ref{fig:SIMPLEflowchart}所示，其中主要的工作量位于步骤1、2、4对隐式离散方程的求解，计划先采用中心差分式，之后再提高精度阶数。
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{SIMPLE.PNG}
+  \caption{SIMPLE算法流程图}
+  \label{fig:SIMPLEflowchart}
+\end{figure}
+
+\subsection{Fluent仿真分析}
+在matlab数值计算的基础上，我们准备采用$Fluent19.0$对计算结果进行验证，同时对仿真分析的内容作出进一步的拓展。
+\subsubsection{网格划分}
+利用Fluent软件对方腔模型进行网格划分，由于靠近壁面处的边界层温度梯度和速度梯度变化都比较大，尤其是在瑞利数$Ra$较高的情况下，二者变化更大，因此有必要对网格边界做特殊处理。模型长度与宽度均为$750mm$，因此以$10mm$作为网格划分尺寸制作$75 \times 75$的网格，对边界采用inflation的方法细化边界网格，设置增长速率为1.1，边界细化层数为10层，得到如图\ref{wg}所示网格。
+ 
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}[b]{0.39\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{wang2.jpg}
+          \caption{}
+          \label{f4}
+  \end{subfigure}
+  \quad
+  \begin{subfigure}[b]{0.4\textwidth}
+          \centering
+          \includegraphics[width=\textwidth]{wang1.jpg}
+          \caption{}
+          \label{f5}
+  \end{subfigure}
+  \caption{网格划分设置 $(a)$边缘未细化的网格; $(b)$边缘细化的网格.}
+  \label{wg}
+\end{figure}
+
+\subsubsection{流体模型}
+为模拟高瑞利数情况下的流体流动，我们采用fluent内置的$k-\varepsilon$湍流模型进行模拟。$k-\varepsilon$湍流模型属于二方程模型，它适合完全发展的湍流，对雷诺数较低的过渡情况和近壁区域则计算结果不理想。常见的$k-\varepsilon$模型有如下几种\cite{tuan}:
+
+\begin{itemize}
+  \item \textbf{标准的$k-\varepsilon$模型：}
+  
+  最简单的完整湍流模型是两个方程的模型，要解两个变量，速度和长度尺度。在FLUENT中，标准$k-\varepsilon$模型自从被Launder and Spalding提出之后，就变成工程流场计算中主要的工具了。适用范围广、经济、合理的精度。它是个半经验的公式，是从实验现象中总结出来的。湍动能输运方程是通过精确的方程推导得到，耗散率方程是通过物理推理，数学上模拟相似原型方程得到的。
+
+　应用范围：该模型假设流动为完全湍流，分子粘性的影响可以忽略，此标准$k-\varepsilon$模型只适合完全湍流的流动过程模拟。
+  \item \textbf{RNG $k-\varepsilon$模型：}
+  
+  RNG $k-\varepsilon$模型来源于严格的统计技术。它和标准$k-\varepsilon$模型很相似，但是有以下改进：
+  \begin{itemize}
+    \item RNG模型在$\varepsilon$方程中加了一个条件，有效的改善了精度。
+    \item 考虑到了湍流漩涡，提高了在这方面的精度。
+    \item RNG理论为湍流Prandtl数提供了一个解析公式，然而标准$k-\varepsilon$模型使用的是用户提供的常数。
+    \item 标准$k-\varepsilon$模型是一种高雷诺数的模型，RNG理论提供了一个考虑低雷诺数流动粘性的解析公式。这些公式的作用取决于正确的对待近壁区域。
+  \end{itemize}
+　这些特点使得RNG $k-\varepsilon$模型比标准$k-\varepsilon$模型在更广泛的流动中有更高的可信度和精度。
+  \item \textbf{可实现的$k-\varepsilon$模型：}
+  
+  可实现的$k-\varepsilon$模型比起标准$k-\varepsilon$模型来有两个主要的不同点：一是可实现的$k-\varepsilon$模型为湍流粘性增加了一个公式；二是为耗散率增加了新的传输方程，这个方程来源于一个为层流速度波动而作的精确方程。应用范围：可实现的$k-\varepsilon$模型直接的好处是对于平板和圆柱射流的发散比率的更精确的预测。而且它对于旋转流动、强逆压梯度的边界层流动、流动分离和二次流有很好的表现。
+
+\end{itemize}
+
+根据湍流模型的以上特点，我们选用可实现的$k-\varepsilon$模型作为流体的模型进行自然对流模拟。
+
+\subsubsection{数值求解}
+我们以上下表面绝热，两侧壁面恒温且有温差的方腔内自然对流为基础模型进行分析讨论，主要分析不同高宽比($A$)、$Ra$、边界条件（壁面温差$\Delta T $、是否考虑壁面辐射）的方腔内温度场分布以及速度场分布情况。具体参数如下表\ref{tb:air}所示：
+
+\begin{table}[H]
+  \centering
+  \caption{$30^{\circ}C$干空气物性参数}
+  \begin{tabular}{cccccccc} % 控制表格的格式
+  \toprule
+  \multirow{2}{*}{$t/C^{\circ}$} & $\rho$ & $c_p$ & $\lambda \times 10^2 $ & $a \times 10^6 $ &$\mu \times 10^2 $ & $\nu \times 10^6 $& $Pr$ \\
+  \cline{2-8}  % 这部分是画一条横线在2-6 排之间
+     & $kg/m^3$ & $kJ/(kg \cdot K)$& $W/(m \cdot K)$ & $m^2/s$ & $kg / (m \cdot s)$ & $m^2/s$ & \\
+    \midrule
+    30 &  1.165 & 1.005  & 2.67 & 22.9  & 18.6 & 16.00 & 0.701 \\
+    \bottomrule
+    \end{tabular}
+    \label{tb:air}
+\end{table}
+
+为保证各个数据之间有可比性，我们在满足如式\ref{tj}所示约束的前提下,对仿真分析进行如表\ref{table_time}所示五组参数的设置，其中$T_m$为气体的定性温度：
+
+\begin{equation}
+  \label{tj}
+  \left\{
+  \begin{aligned}
+  T_m=\frac{T_{hot}+T_{cold}}{2} = 30 C^{\circ} \\
+  S=H \cdot L=0.75^2 m^2=0.5625m^2
+  \end{aligned}
+  \right.
+\end{equation}
+
+\begin{table}[H]  
+    \centering
+    \caption{Fluent仿真分析参数表}
+    \label{table_time}
+    \begin{tabular}{cccccc}  
+   \toprule   
+    组别 & 长宽比$A$ & $Ra$ & $\Delta T/K $ & 特征长度$/m$ & 壁面辐射 \\  
+   \midrule   
+  1	&	4	&	1.19E+10	&	40	&	1.5	 & $\times$\\
+  2	&	1	&	1.49E+09	&	40	&	0.75	& $\times$\\
+  3	&	0.25	&	1.86E+08	&	40	&	0.375	& $\times$\\
+  4	&	1	&	2.24E+09	&	60	&	0.75	& $\times$\\
+  5	&	1	&	2.98E+09	&	80	&	0.75	& $\times$\\  
+  6	&	1	&	1.49E+09	&	40	&	0.75	& $\checkmark$\\
+  7	&	1	&	2.24E+09	&	60	&	0.75	& $\checkmark$\\ 
+  8	&	1	&	2.98E+09	&	80	&	0.75	& $\checkmark$\\ 
+    \bottomrule  
+   \end{tabular} 
+\end{table}
+
+除此之外，我们还准备探讨非矩形封闭腔内的自然对流及现象，得出非矩形封闭腔内的自然对流规律并与现有文献对比，主要研究的形状为直角三角形的自然对流。
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.5\textwidth]{tri2.jpg}
+  \caption{(i)稳态情况下流函数和等温线图，其中$Pr=0.72$,$Gr=10^5$,高宽比$A,(a)A=1.0,(b)A=0.5,(c)A=0.3,(d)A=0.15,(e)A=0.1$ \cite{tri2};(ii)平均努塞尔数关于时间变化图，其中$Pr=0.72$,$Gr=10^5$，高宽比取若干值 \cite{tri2}}。
+  \label{fig:tri2}
+\end{figure}
+
+\section{人员分工与进度规划}
+\subsection{人员分工}
+\begin{itemize}
+    \item \textbf{石子康}   matlab数值计算
+    \item \textbf{谭文娟}   文献调研与数据测试分析
+    \item \textbf{董仕豪}   Fluent仿真分析
+\end{itemize}
+\subsection{进度规划}
+我们对进度作出如下规划：
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.5\textwidth]{gant.jpg}
+  \caption{进度甘特图}
+  \label{fig:gant}
+\end{figure}
+
+\newpage
+\section{附录}
+为描述方便，我们对符号作如表\ref{table1}所示的统一规定：
+
+\begin{table}[H]
+    \centering  
+    \caption{符号表}
+    \label{table1}
+    \begin{tabular}{cc}  
+  \toprule   
+    符号 & 含义\\  
+  \midrule  
+    $A$ & 方腔高宽比  \\ 
+    $g$ & 重力加速度，$m/s^2$ \\
+    $h$ & 换热系数,$W/(m^2 \cdot K)$ \\
+    $Nu$ & 努塞尔数  \\  
+    $H$ & 方腔高度  \\    
+    $L$ & 方腔宽度 \\
+    $k$ & 电导率，$W/(m \cdot K)$ \\
+    $p$ & 压强 \\
+    $Pr$ & 普朗特数，$\nu / \alpha$ \\
+    $q$ & 热流量，$W/m^2$ \\
+    $Ra$ & 瑞利数，$W/m^2$ \\
+    $t$ & 时间，$s$ \\
+    $u,v$ & $x,y$方向的速度 \\
+    $x,y$ & 笛卡尔坐标 \\
+    $S$ & 方腔面积，$H \cdot L$ \\
+     \bottomrule  
+   \end{tabular} 
+\end{table}
+\bibliographystyle{unsrt}
+\bibliography{myreff} 
+
+\end{document}
