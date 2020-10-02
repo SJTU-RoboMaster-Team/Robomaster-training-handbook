@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.12)  2 OCT 2020 21:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.12)  2 OCT 2020 23:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/93548/Desktop/Robomaster/Robomaster
-(c:/Users/93548/Desktop/Robomaster/Robomaster.tex
+**d:/LEARNING/github/Robomaster-training-handbook/Robomaster
+(d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex
 LaTeX2e <2018-12-01>
 (d:/software/texlive/2019/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
@@ -947,523 +947,1489 @@ File: zhwindowsfonts.tex 2019/04/07 v2.4.15 Windows font map loader for pdfTeX a
 \openout4 = `Robomaster.toc'.
 
  [3]
-<figure/kai1.jpg, id=401, 625.58719pt x 394.85016pt>
-File: figure/kai1.jpg Graphic file (type jpg)
-<use figure/kai1.jpg>
-Package pdftex.def Info: figure/kai1.jpg  used on input line 42.
-(pdftex.def)             Requested size: 256.07481pt x 161.63054pt.
-<figure/lv.png, id=406, 254.47183pt x 181.69289pt>
-File: figure/lv.png Graphic file (type png)
-<use figure/lv.png>
-Package pdftex.def Info: figure/lv.png  used on input line 57.
-(pdftex.def)             Requested size: 199.73804pt x 142.61258pt.
-<figure/tan.png, id=408, 259.96404pt x 159.61792pt>
-File: figure/tan.png Graphic file (type png)
-<use figure/tan.png>
-Package pdftex.def Info: figure/tan.png  used on input line 64.
-(pdftex.def)             Requested size: 204.85672pt x 125.785pt.
+
+LaTeX Warning: File `kai1.jpg' not found on input line 42.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:42: Package pdftex.def Error: File `kai1.jpg' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 ...udegraphics[width=0.5\textwidth]{kai1.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `lv.png' not found on input line 57.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:57: Package pdftex.def Error: File `lv.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 ...\includegraphics[width=\textwidth]{lv.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `tan.png' not found on input line 64.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:64: Package pdftex.def Error: File `tan.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64 ...includegraphics[width=\textwidth]{tan.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[4]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 74.
  (d:/software/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.53937> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 74.
- [4 <./figure/kai1.jpg> <./figure/lv.png> <./figure/tan.png>]
-<figure/chicun1.jpg, id=444, 316.33974pt x 237.09631pt>
-File: figure/chicun1.jpg Graphic file (type jpg)
-<use figure/chicun1.jpg>
-Package pdftex.def Info: figure/chicun1.jpg  used on input line 79.
-(pdftex.def)             Requested size: 153.64644pt x 115.16159pt.
-<figure/tan1.png, id=451, 239.9364pt x 147.4308pt>
-File: figure/tan1.png Graphic file (type png)
-<use figure/tan1.png>
-Package pdftex.def Info: figure/tan1.png  used on input line 104.
-(pdftex.def)             Requested size: 199.73804pt x 122.73647pt.
-<figure/tan2.png, id=452, 239.805pt x 187.20543pt>
-File: figure/tan2.png Graphic file (type png)
-<use figure/tan2.png>
-Package pdftex.def Info: figure/tan2.png  used on input line 110.
-(pdftex.def)             Requested size: 153.64644pt x 119.94817pt.
- [5 <./figure/chicun1.jpg> <./figure/tan1.png> <./figure/tan2.png>]
-<figure/xing1.png, id=486, 306.99818pt x 178.58455pt>
-File: figure/xing1.png Graphic file (type png)
-<use figure/xing1.png>
-Package pdftex.def Info: figure/xing1.png  used on input line 131.
-(pdftex.def)             Requested size: 199.73804pt x 116.19301pt.
-<figure/xing2.png, id=487, 282.30469pt x 182.93344pt>
-File: figure/xing2.png Graphic file (type png)
-<use figure/xing2.png>
-Package pdftex.def Info: figure/xing2.png  used on input line 137.
-(pdftex.def)             Requested size: 204.85672pt x 132.75034pt.
-<figure/chuan1.png, id=489, 229.3368pt x 229.3368pt>
-File: figure/chuan1.png Graphic file (type png)
-<use figure/chuan1.png>
-Package pdftex.def Info: figure/chuan1.png  used on input line 149.
-(pdftex.def)             Requested size: 153.64644pt x 153.65135pt.
-<figure/chaun2.png, id=490, 238.491pt x 238.491pt>
-File: figure/chaun2.png Graphic file (type png)
-<use figure/chaun2.png>
-Package pdftex.def Info: figure/chaun2.png  used on input line 155.
-(pdftex.def)             Requested size: 153.64644pt x 153.649pt.
-<figure/chaun3.png, id=491, 244.41876pt x 244.41876pt>
-File: figure/chaun3.png Graphic file (type png)
-<use figure/chaun3.png>
-Package pdftex.def Info: figure/chaun3.png  used on input line 160.
-(pdftex.def)             Requested size: 153.64644pt x 153.6527pt.
- [6 <./figure/xing1.png> <./figure/xing2.png> <./figure/chuan1.png> <./figure/chaun2.png> <./figure/chaun3.png>]
-<figure/ban1.png, id=506, 335.6175pt x 260.0625pt>
-File: figure/ban1.png Graphic file (type png)
-<use figure/ban1.png>
-Package pdftex.def Info: figure/ban1.png  used on input line 181.
-(pdftex.def)             Requested size: 153.64644pt x 119.05876pt.
-<figure/ban2.png, id=507, 307.61076pt x 188.39615pt>
-File: figure/ban2.png Graphic file (type png)
-<use figure/ban2.png>
-Package pdftex.def Info: figure/ban2.png  used on input line 203.
-(pdftex.def)             Requested size: 153.64644pt x 94.1001pt.
-<figure/ban3.png, id=509, 301.125pt x 184.2885pt>
-File: figure/ban3.png Graphic file (type png)
-<use figure/ban3.png>
-Package pdftex.def Info: figure/ban3.png  used on input line 217.
-(pdftex.def)             Requested size: 153.64644pt x 94.03369pt.
+
+
+LaTeX Warning: File `chicun1.jpg' not found on input line 79.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:79: Package pdftex.def Error: File `chicun1.jpg' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79 ...graphics[width=0.3\textwidth]{chicun1.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[5]
+
+LaTeX Warning: File `tan1.png' not found on input line 104.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:104: Package pdftex.def Error: File `tan1.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104 ...cludegraphics[width=\textwidth]{tan1.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `tan2.png' not found on input line 110.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:110: Package pdftex.def Error: File `tan2.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.110 ...cludegraphics[width=\textwidth]{tan2.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `xing1.png' not found on input line 131.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:131: Package pdftex.def Error: File `xing1.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.131 ...ludegraphics[width=\textwidth]{xing1.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `xing2.png' not found on input line 137.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:137: Package pdftex.def Error: File `xing2.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.137 ...ludegraphics[width=\textwidth]{xing2.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[6]
+
+LaTeX Warning: File `chuan1.png' not found on input line 149.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:149: Package pdftex.def Error: File `chuan1.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.149 ...udegraphics[width=\textwidth]{chuan1.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `chaun2.png' not found on input line 155.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:155: Package pdftex.def Error: File `chaun2.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.155 ...udegraphics[width=\textwidth]{chaun2.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `chaun3.png' not found on input line 160.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:160: Package pdftex.def Error: File `chaun3.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 ...udegraphics[width=\textwidth]{chaun3.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[7]
+
+LaTeX Warning: File `ban1.png' not found on input line 181.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:181: Package pdftex.def Error: File `ban1.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.181 ...degraphics[width=0.3\textwidth]{ban1.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `ban2.png' not found on input line 203.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:203: Package pdftex.def Error: File `ban2.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.203 ...degraphics[width=0.3\textwidth]{ban2.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[8]
+
+LaTeX Warning: File `ban3.png' not found on input line 217.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:217: Package pdftex.def Error: File `ban3.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.217 ...degraphics[width=0.3\textwidth]{ban3.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `ji.png' not found on input line 233.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:233: Package pdftex.def Error: File `ji.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233 ...ludegraphics[width=0.3\textwidth]{ji.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `3.png' not found on input line 246.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:246: Package pdftex.def Error: File `3.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.246 ...cludegraphics[width=0.3\textwidth]{3.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[9]
+
+LaTeX Warning: File `luo1.png' not found on input line 279.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:279: Package pdftex.def Error: File `luo1.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.279 ...cludegraphics[width=\textwidth]{luo1.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `luo11.png' not found on input line 285.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:285: Package pdftex.def Error: File `luo11.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.285 ...ludegraphics[width=\textwidth]{luo11.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[10]
+
+LaTeX Warning: File `luo2.png' not found on input line 297.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:297: Package pdftex.def Error: File `luo2.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.297 ...cludegraphics[width=\textwidth]{luo2.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `luo22.png' not found on input line 303.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:303: Package pdftex.def Error: File `luo22.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.303 ...ludegraphics[width=\textwidth]{luo22.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `luo3.png' not found on input line 313.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:313: Package pdftex.def Error: File `luo3.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.313 ...egraphics[width=0.25\textwidth]{luo3.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7 <./figure/ban1.png> <./figure/ban2.png>]
-<figure/ji.png, id=524, 301.125pt x 225.84375pt>
-File: figure/ji.png Graphic file (type png)
-<use figure/ji.png>
-Package pdftex.def Info: figure/ji.png  used on input line 233.
-(pdftex.def)             Requested size: 153.64644pt x 115.23737pt.
-<figure/3.png, id=525, 301.5711pt x 197.1811pt>
-File: figure/3.png Graphic file (type png)
-<use figure/3.png>
-Package pdftex.def Info: figure/3.png  used on input line 246.
-(pdftex.def)             Requested size: 153.64644pt x 100.46173pt.
- [8 <./figure/ban3.png> <./figure/ji.png> <./figure/3.png>]
-<figure/luo1.png, id=544, 159.47182pt x 109.89818pt>
-File: figure/luo1.png Graphic file (type png)
-<use figure/luo1.png>
-Package pdftex.def Info: figure/luo1.png  used on input line 279.
-(pdftex.def)             Requested size: 199.73804pt x 137.64905pt.
-<figure/luo11.png, id=545, 105.996pt x 106.9596pt>
-File: figure/luo11.png Graphic file (type png)
-<use figure/luo11.png>
-Package pdftex.def Info: figure/luo11.png  used on input line 285.
-(pdftex.def)             Requested size: 153.64644pt x 155.05968pt.
-<figure/luo2.png, id=546, 161.403pt x 119.4864pt>
-File: figure/luo2.png Graphic file (type png)
-<use figure/luo2.png>
-Package pdftex.def Info: figure/luo2.png  used on input line 297.
-(pdftex.def)             Requested size: 199.73804pt x 147.87535pt.
-<figure/luo22.png, id=547, 161.50774pt x 119.1821pt>
-File: figure/luo22.png Graphic file (type png)
-<use figure/luo22.png>
-Package pdftex.def Info: figure/luo22.png  used on input line 303.
-(pdftex.def)             Requested size: 204.85672pt x 151.17589pt.
- [9 <./figure/luo1.png> <./figure/luo11.png>]
-<figure/luo3.png, id=566, 165.7392pt x 105.0324pt>
-File: figure/luo3.png Graphic file (type png)
-<use figure/luo3.png>
-Package pdftex.def Info: figure/luo3.png  used on input line 313.
-(pdftex.def)             Requested size: 128.0374pt x 81.14122pt.
-<figure/luo4.png, id=567, 126.2316pt x 126.2316pt>
-File: figure/luo4.png Graphic file (type png)
-<use figure/luo4.png>
-Package pdftex.def Info: figure/luo4.png  used on input line 321.
-(pdftex.def)             Requested size: 128.0374pt x 128.04955pt.
-<figure/luo5.png, id=568, 255.8358pt x 121.8954pt>
-File: figure/luo5.png Graphic file (type png)
-<use figure/luo5.png>
-Package pdftex.def Info: figure/luo5.png  used on input line 329.
-(pdftex.def)             Requested size: 128.0374pt x 61.0052pt.
- [10 <./figure/luo2.png> <./figure/luo22.png> <./figure/luo3.png> <./figure/luo4.png> <./figure/luo5.png>]
-<figure/luo6.png, id=582, 132.9768pt x 130.086pt>
-File: figure/luo6.png Graphic file (type png)
-<use figure/luo6.png>
-Package pdftex.def Info: figure/luo6.png  used on input line 337.
-(pdftex.def)             Requested size: 128.0374pt x 125.26024pt.
-<figure/jiao1.png, id=583, 128.6406pt x 118.5228pt>
-File: figure/jiao1.png Graphic file (type png)
-<use figure/jiao1.png>
-Package pdftex.def Info: figure/jiao1.png  used on input line 349.
-(pdftex.def)             Requested size: 153.64644pt x 141.57736pt.
-<figure/jiao2.png, id=584, 168.63pt x 116.1138pt>
-File: figure/jiao2.png Graphic file (type png)
-<use figure/jiao2.png>
-Package pdftex.def Info: figure/jiao2.png  used on input line 355.
-(pdftex.def)             Requested size: 204.85672pt x 141.06154pt.
-<figure/jiao3.png, id=585, 125.7498pt x 126.7134pt>
-File: figure/jiao3.png Graphic file (type png)
-<use figure/jiao3.png>
-Package pdftex.def Info: figure/jiao3.png  used on input line 361.
-(pdftex.def)             Requested size: 153.64644pt x 154.84145pt.
-<figure/jiao4.png, id=586, 176.3388pt x 117.5592pt>
-File: figure/jiao4.png Graphic file (type png)
-<use figure/jiao4.png>
-Package pdftex.def Info: figure/jiao4.png  used on input line 367.
-(pdftex.def)             Requested size: 204.85672pt x 136.57863pt.
-<figure/fa1.png, id=587, 171.765pt x 171.765pt>
-File: figure/fa1.png Graphic file (type png)
-<use figure/fa1.png>
-Package pdftex.def Info: figure/fa1.png  used on input line 379.
-(pdftex.def)             Requested size: 102.42836pt x 102.43077pt.
-<figure/fa2.png, id=588, 173.05469pt x 179.44592pt>
-File: figure/fa2.png Graphic file (type png)
-<use figure/fa2.png>
-Package pdftex.def Info: figure/fa2.png  used on input line 385.
-(pdftex.def)             Requested size: 102.42836pt x 106.21443pt.
-<figure/fa3.png, id=589, 299.6796pt x 183.5658pt>
-File: figure/fa3.png Graphic file (type png)
-<use figure/fa3.png>
-Package pdftex.def Info: figure/fa3.png  used on input line 390.
-(pdftex.def)             Requested size: 102.42836pt x 62.74205pt.
- [11 <./figure/luo6.png> <./figure/jiao1.png> <./figure/jiao2.png> <./figure/jiao3.png> <./figure/jiao4.png>]
-<figure/lian1.png, id=602, 183.5658pt x 183.084pt>
-File: figure/lian1.png Graphic file (type png)
-<use figure/lian1.png>
-Package pdftex.def Info: figure/lian1.png  used on input line 403.
-(pdftex.def)             Requested size: 128.0374pt x 127.70255pt.
-<figure/lian2.png, id=603, 394.47375pt x 161.403pt>
-File: figure/lian2.png Graphic file (type png)
-<use figure/lian2.png>
-Package pdftex.def Info: figure/lian2.png  used on input line 409.
-(pdftex.def)             Requested size: 153.64644pt x 62.86563pt.
-<figure/jl1.png, id=604, 211.0284pt x 158.0304pt>
-File: figure/jl1.png Graphic file (type png)
-<use figure/jl1.png>
-Package pdftex.def Info: figure/jl1.png  used on input line 422.
-(pdftex.def)             Requested size: 153.64644pt x 115.06462pt.
-<figure/jl2.png, id=605, 194.67325pt x 169.93216pt>
-File: figure/jl2.png Graphic file (type png)
-<use figure/jl2.png>
-Package pdftex.def Info: figure/jl2.png  used on input line 428.
-(pdftex.def)             Requested size: 128.0374pt x 111.76402pt.
- [12 <./figure/fa1.png> <./figure/fa2.png> <./figure/fa3.png> <./figure/lian1.png> <./figure/lian2.png> <./figure/jl1.png> <./figure/jl2.png>]
-<figure/xiao1.png, id=620, 320.99925pt x 180.675pt>
-File: figure/xiao1.png Graphic file (type png)
-<use figure/xiao1.png>
-Package pdftex.def Info: figure/xiao1.png  used on input line 441.
-(pdftex.def)             Requested size: 179.2555pt x 100.8961pt.
-<figure/xiao2.png, id=621, 318.4922pt x 137.81721pt>
-File: figure/xiao2.png Graphic file (type png)
-<use figure/xiao2.png>
-Package pdftex.def Info: figure/xiao2.png  used on input line 447.
-(pdftex.def)             Requested size: 204.85672pt x 88.64642pt.
-<figure/jian1.png, id=622, 306.9066pt x 230.3004pt>
-File: figure/jian1.png Graphic file (type png)
-<use figure/jian1.png>
-Package pdftex.def Info: figure/jian1.png  used on input line 459.
-(pdftex.def)             Requested size: 153.64644pt x 115.2975pt.
-<figure/mao1.png, id=624, 296.307pt x 243.7908pt>
-File: figure/mao1.png Graphic file (type png)
-<use figure/mao1.png>
-Package pdftex.def Info: figure/mao1.png  used on input line 470.
-(pdftex.def)             Requested size: 153.64644pt x 126.41855pt.
+
+LaTeX Warning: File `luo4.png' not found on input line 321.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:321: Package pdftex.def Error: File `luo4.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.321 ...egraphics[width=0.25\textwidth]{luo4.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13 <./figure/xiao1.png> <./figure/xiao2.png> <./figure/jian1.png>]
-<figure/mao2.png, id=637, 230.7822pt x 153.6942pt>
-File: figure/mao2.png Graphic file (type png)
-<use figure/mao2.png>
-Package pdftex.def Info: figure/mao2.png  used on input line 489.
-(pdftex.def)             Requested size: 153.64644pt x 102.3226pt.
-<figure/mao3.png, id=638, 229.95pt x 157.68pt>
-File: figure/mao3.png Graphic file (type png)
-<use figure/mao3.png>
-Package pdftex.def Info: figure/mao3.png  used on input line 495.
-(pdftex.def)             Requested size: 153.64644pt x 105.36113pt.
-<figure/mao4.png, id=639, 409.28418pt x 148.96469pt>
-File: figure/mao4.png Graphic file (type png)
-<use figure/mao4.png>
-Package pdftex.def Info: figure/mao4.png  used on input line 500.
-(pdftex.def)             Requested size: 256.07481pt x 93.20042pt.
- [14 <./figure/mao1.png> <./figure/mao2.png> <./figure/mao3.png> <./figure/mao4.png>]
-<figure/zhou1.png, id=652, 319.79475pt x 159.59625pt>
-File: figure/zhou1.png Graphic file (type png)
-<use figure/zhou1.png>
-Package pdftex.def Info: figure/zhou1.png  used on input line 519.
-(pdftex.def)             Requested size: 204.85672pt x 102.23865pt.
-<figure/zhou2.png, id=653, 206.27063pt x 196.23312pt>
-File: figure/zhou2.png Graphic file (type png)
-<use figure/zhou2.png>
-Package pdftex.def Info: figure/zhou2.png  used on input line 525.
-(pdftex.def)             Requested size: 102.42836pt x 97.44559pt.
-<figure/zhou3.png, id=654, 295.70474pt x 233.07076pt>
-File: figure/zhou3.png Graphic file (type png)
-<use figure/zhou3.png>
-Package pdftex.def Info: figure/zhou3.png  used on input line 538.
-(pdftex.def)             Requested size: 204.85672pt x 161.46269pt.
-<figure/zhou4.png, id=655, 382.5492pt x 233.1912pt>
-File: figure/zhou4.png Graphic file (type png)
-<use figure/zhou4.png>
-Package pdftex.def Info: figure/zhou4.png  used on input line 544.
-(pdftex.def)             Requested size: 204.85672pt x 124.87524pt.
-File: figure/zhou1.png Graphic file (type png)
-<use figure/zhou1.png>
-Package pdftex.def Info: figure/zhou1.png  used on input line 557.
-(pdftex.def)             Requested size: 153.64644pt x 76.6808pt.
+
+LaTeX Warning: File `luo5.png' not found on input line 329.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:329: Package pdftex.def Error: File `luo5.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.329 ...egraphics[width=0.25\textwidth]{luo5.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[15 <./figure/zhou1.png> <./figure/zhou2.png> <./figure/zhou3.png> <./figure/zhou4.png>]
-<figure/zhou6.png, id=666, 242.1045pt x 169.23225pt>
-File: figure/zhou6.png Graphic file (type png)
-<use figure/zhou6.png>
-Package pdftex.def Info: figure/zhou6.png  used on input line 570.
-(pdftex.def)             Requested size: 153.64644pt x 107.40189pt.
-<figure/zhou7.png, id=667, 291.489pt x 170.43675pt>
-File: figure/zhou7.png Graphic file (type png)
-<use figure/zhou7.png>
-Package pdftex.def Info: figure/zhou7.png  used on input line 576.
-(pdftex.def)             Requested size: 179.2555pt x 104.81146pt.
-<figure/zhou8.png, id=668, 319.68848pt x 221.9114pt>
-File: figure/zhou8.png Graphic file (type png)
-<use figure/zhou8.png>
-Package pdftex.def Info: figure/zhou8.png  used on input line 587.
-(pdftex.def)             Requested size: 153.64644pt x 106.6517pt.
- [16 <./figure/zhou6.png> <./figure/zhou7.png> <./figure/zhou8.png>]
-<figure/zhou9.png, id=680, 235.6002pt x 175.3752pt>
-File: figure/zhou9.png Graphic file (type png)
-<use figure/zhou9.png>
-Package pdftex.def Info: figure/zhou9.png  used on input line 596.
-(pdftex.def)             Requested size: 204.85672pt x 152.49223pt.
-<figure/th1.png, id=681, 361.8318pt x 270.2898pt>
-File: figure/th1.png Graphic file (type png)
-<use figure/th1.png>
-Package pdftex.def Info: figure/th1.png  used on input line 606.
-(pdftex.def)             Requested size: 153.64644pt x 114.77472pt.
-<figure/th2.png, id=682, 301.125pt x 225.84375pt>
-File: figure/th2.png Graphic file (type png)
-<use figure/th2.png>
-Package pdftex.def Info: figure/th2.png  used on input line 615.
-(pdftex.def)             Requested size: 153.64644pt x 115.23737pt.
+
+LaTeX Warning: File `luo6.png' not found on input line 337.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:337: Package pdftex.def Error: File `luo6.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.337 ...egraphics[width=0.25\textwidth]{luo6.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[17 <./figure/zhou9.png> <./figure/th1.png>]
-<figure/tan3.png, id=695, 304.4976pt x 210.0648pt>
-File: figure/tan3.png Graphic file (type png)
-<use figure/tan3.png>
-Package pdftex.def Info: figure/tan3.png  used on input line 634.
-(pdftex.def)             Requested size: 153.64644pt x 106.00014pt.
-<figure/th.png, id=696, 301.125pt x 278.84175pt>
-File: figure/th.png Graphic file (type png)
-<use figure/th.png>
-Package pdftex.def Info: figure/th.png  used on input line 643.
-(pdftex.def)             Requested size: 153.64644pt x 142.27972pt.
- [18 <./figure/th2.png> <./figure/tan3.png> <./figure/th.png>]
-<figure/th3.png, id=707, 321.8424pt x 228.3732pt>
-File: figure/th3.png Graphic file (type png)
-<use figure/th3.png>
-Package pdftex.def Info: figure/th3.png  used on input line 653.
-(pdftex.def)             Requested size: 153.64644pt x 109.02898pt.
-<figure/th4.png, id=709, 276.0714pt x 238.0092pt>
-File: figure/th4.png Graphic file (type png)
-<use figure/th4.png>
-Package pdftex.def Info: figure/th4.png  used on input line 663.
-(pdftex.def)             Requested size: 153.64644pt x 132.46346pt.
-<figure/qi1.png, id=710, 547.43103pt x 410.85779pt>
-File: figure/qi1.png Graphic file (type png)
-<use figure/qi1.png>
-Package pdftex.def Info: figure/qi1.png  used on input line 676.
-(pdftex.def)             Requested size: 153.64644pt x 115.31523pt.
+
+LaTeX Warning: File `jiao1.png' not found on input line 349.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:349: Package pdftex.def Error: File `jiao1.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.349 ...ludegraphics[width=\textwidth]{jiao1.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `jiao2.png' not found on input line 355.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:355: Package pdftex.def Error: File `jiao2.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.355 ...ludegraphics[width=\textwidth]{jiao2.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `jiao3.png' not found on input line 361.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:361: Package pdftex.def Error: File `jiao3.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.361 ...ludegraphics[width=\textwidth]{jiao3.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `jiao4.png' not found on input line 367.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:367: Package pdftex.def Error: File `jiao4.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.367 ...ludegraphics[width=\textwidth]{jiao4.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[11] [12]
+Overfull \vbox (111.8292pt too high) has occurred while \output is active []
+
+ [13]
+
+LaTeX Warning: File `fa1.png' not found on input line 379.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:379: Package pdftex.def Error: File `fa1.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.379 ...ncludegraphics[width=\textwidth]{fa1.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `fa2.png' not found on input line 385.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:385: Package pdftex.def Error: File `fa2.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.385 ...ncludegraphics[width=\textwidth]{fa2.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `fa3.png' not found on input line 390.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:390: Package pdftex.def Error: File `fa3.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.390 ...ncludegraphics[width=\textwidth]{fa3.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `lian1.png' not found on input line 403.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:403: Package pdftex.def Error: File `lian1.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.403 ...ludegraphics[width=\textwidth]{lian1.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `lian2.png' not found on input line 409.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:409: Package pdftex.def Error: File `lian2.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.409 ...ludegraphics[width=\textwidth]{lian2.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `jl1.png' not found on input line 422.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:422: Package pdftex.def Error: File `jl1.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.422 ...ncludegraphics[width=\textwidth]{jl1.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `jl2.png' not found on input line 428.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:428: Package pdftex.def Error: File `jl2.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.428 ...ncludegraphics[width=\textwidth]{jl2.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[14]
+
+LaTeX Warning: File `xiao1.png' not found on input line 441.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:441: Package pdftex.def Error: File `xiao1.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.441 ...ludegraphics[width=\textwidth]{xiao1.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `xiao2.png' not found on input line 447.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:447: Package pdftex.def Error: File `xiao2.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...ludegraphics[width=\textwidth]{xiao2.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `jian1.png' not found on input line 459.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:459: Package pdftex.def Error: File `jian1.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.459 ...egraphics[width=0.3\textwidth]{jian1.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[19 <./figure/th3.png> <./figure/th4.png>]
-<figure/qi2.png, id=722, 282.3348pt x 185.9748pt>
-File: figure/qi2.png Graphic file (type png)
-<use figure/qi2.png>
-Package pdftex.def Info: figure/qi2.png  used on input line 688.
-(pdftex.def)             Requested size: 153.64644pt x 101.2081pt.
-<figure/qi3.png, id=723, 197.0562pt x 197.0562pt>
-File: figure/qi3.png Graphic file (type png)
-<use figure/qi3.png>
-Package pdftex.def Info: figure/qi3.png  used on input line 696.
-(pdftex.def)             Requested size: 153.64644pt x 153.65208pt.
- [20 <./figure/qi1.png> <./figure/qi2.png> <./figure/qi3.png>]
-<figure/qi4.png, id=736, 273.2025pt x 168.0825pt>
-File: figure/qi4.png Graphic file (type png)
-<use figure/qi4.png>
-Package pdftex.def Info: figure/qi4.png  used on input line 709.
-(pdftex.def)             Requested size: 204.85672pt x 126.03847pt.
-<figure/qi5.png, id=737, 198.0198pt x 173.9298pt>
-File: figure/qi5.png Graphic file (type png)
-<use figure/qi5.png>
-Package pdftex.def Info: figure/qi5.png  used on input line 715.
-(pdftex.def)             Requested size: 153.64644pt x 134.95609pt.
-<figure/qi6.png, id=738, 339.1872pt x 249.0906pt>
-File: figure/qi6.png Graphic file (type png)
-<use figure/qi6.png>
-Package pdftex.def Info: figure/qi6.png  used on input line 726.
-(pdftex.def)             Requested size: 204.85672pt x 150.44751pt.
-<figure/qi7.png, id=739, 294.41537pt x 259.49295pt>
-File: figure/qi7.png Graphic file (type png)
-<use figure/qi7.png>
-Package pdftex.def Info: figure/qi7.png  used on input line 732.
-(pdftex.def)             Requested size: 189.49286pt x 167.01729pt.
-<figure/dj1.png, id=740, 255.8358pt x 191.7564pt>
-File: figure/dj1.png Graphic file (type png)
-<use figure/dj1.png>
-Package pdftex.def Info: figure/dj1.png  used on input line 750.
-(pdftex.def)             Requested size: 153.64644pt x 115.16296pt.
-<figure/dj2.png, id=741, 133.24782pt x 137.7647pt>
-File: figure/dj2.png Graphic file (type png)
-<use figure/dj2.png>
-Package pdftex.def Info: figure/dj2.png  used on input line 756.
-(pdftex.def)             Requested size: 112.67354pt x 116.49722pt.
- [21 <./figure/qi4.png> <./figure/qi5.png> <./figure/qi6.png> <./figure/qi7.png>] [22 <./figure/dj1.png> <./figure/dj2.png>]
-<figure/dj3.png, id=775, 330.96375pt x 220.91624pt>
-File: figure/dj3.png Graphic file (type png)
-<use figure/dj3.png>
-Package pdftex.def Info: figure/dj3.png  used on input line 790.
-(pdftex.def)             Requested size: 204.85672pt x 136.74417pt.
-<figure/dj4.png, id=776, 287.1528pt x 225.0006pt>
-File: figure/dj4.png Graphic file (type png)
-<use figure/dj4.png>
-Package pdftex.def Info: figure/dj4.png  used on input line 796.
-(pdftex.def)             Requested size: 174.129pt x 136.44334pt.
-<figure/dj5.png, id=777, 330.96375pt x 243.91125pt>
-File: figure/dj5.png Graphic file (type png)
-<use figure/dj5.png>
-Package pdftex.def Info: figure/dj5.png  used on input line 809.
-(pdftex.def)             Requested size: 179.2555pt x 132.10834pt.
-<figure/dj6.png, id=778, 366.168pt x 243.309pt>
-File: figure/dj6.png Graphic file (type png)
-<use figure/dj6.png>
-Package pdftex.def Info: figure/dj6.png  used on input line 815.
-(pdftex.def)             Requested size: 199.73804pt x 132.72144pt.
- [23 <./figure/dj3.png> <./figure/dj4.png> <./figure/dj5.png> <./figure/dj6.png>]
-<figure/dj7.png, id=794, 361.35pt x 256.7994pt>
-File: figure/dj7.png Graphic file (type png)
-<use figure/dj7.png>
-Package pdftex.def Info: figure/dj7.png  used on input line 828.
-(pdftex.def)             Requested size: 204.85672pt x 145.58565pt.
-<figure/dj8.png, id=795, 350.60716pt x 256.85149pt>
-File: figure/dj8.png Graphic file (type png)
-<use figure/dj8.png>
-Package pdftex.def Info: figure/dj8.png  used on input line 834.
-(pdftex.def)             Requested size: 199.73804pt x 146.32848pt.
-<figure/an1.png, id=796, 415.41023pt x 279.97511pt>
-File: figure/an1.png Graphic file (type png)
-<use figure/an1.png>
-Package pdftex.def Info: figure/an1.png  used on input line 852.
-(pdftex.def)             Requested size: 204.85672pt x 138.06477pt.
-<figure/an2.png, id=797, 407.6028pt x 269.808pt>
-File: figure/an2.png Graphic file (type png)
-<use figure/an2.png>
-Package pdftex.def Info: figure/an2.png  used on input line 858.
-(pdftex.def)             Requested size: 204.85672pt x 135.60355pt.
- [24 <./figure/dj7.png> <./figure/dj8.png> <./figure/an1.png> <./figure/an2.png>]
-<figure/duo1.png, id=812, 320.99925pt x 180.675pt>
-File: figure/duo1.png Graphic file (type png)
-<use figure/duo1.png>
-Package pdftex.def Info: figure/duo1.png  used on input line 875.
-(pdftex.def)             Requested size: 204.85672pt x 115.30627pt.
-<figure/duo2.png, id=813, 193.2018pt x 193.2018pt>
-File: figure/duo2.png Graphic file (type png)
-<use figure/duo2.png>
-Package pdftex.def Info: figure/duo2.png  used on input line 881.
-(pdftex.def)             Requested size: 143.40126pt x 143.40927pt.
-<figure/tb1.png, id=815, 301.125pt x 185.493pt>
-File: figure/tb1.png Graphic file (type png)
-<use figure/tb1.png>
-Package pdftex.def Info: figure/tb1.png  used on input line 897.
-(pdftex.def)             Requested size: 204.85672pt x 126.19583pt.
-<figure/tb2.png, id=816, 301.125pt x 176.3388pt>
-File: figure/tb2.png Graphic file (type png)
-<use figure/tb2.png>
-Package pdftex.def Info: figure/tb2.png  used on input line 903.
-(pdftex.def)             Requested size: 204.85672pt x 119.96799pt.
- [25 <./figure/duo1.png> <./figure/duo2.png> <./figure/tb1.png> <./figure/tb2.png>]
-<figure/ll1.png, id=829, 340.12785pt x 177.80714pt>
-File: figure/ll1.png Graphic file (type png)
-<use figure/ll1.png>
-Package pdftex.def Info: figure/ll1.png  used on input line 928.
-(pdftex.def)             Requested size: 204.85672pt x 107.09207pt.
-<figure/ll2.png, id=830, 227.053pt x 182.09764pt>
-File: figure/ll2.png Graphic file (type png)
-<use figure/ll2.png>
-Package pdftex.def Info: figure/ll2.png  used on input line 934.
-(pdftex.def)             Requested size: 153.64644pt x 123.22736pt.
-<figure/g1.png, id=831, 279.444pt x 190.91325pt>
-File: figure/g1.png Graphic file (type png)
-<use figure/g1.png>
-Package pdftex.def Info: figure/g1.png  used on input line 948.
-(pdftex.def)             Requested size: 179.2555pt x 122.46663pt.
-<figure/g2.png, id=832, 282.19714pt x 151.99643pt>
-File: figure/g2.png Graphic file (type png)
-<use figure/g2.png>
-Package pdftex.def Info: figure/g2.png  used on input line 954.
-(pdftex.def)             Requested size: 204.85672pt x 110.34184pt.
- [26 <./figure/ll1.png> <./figure/ll2.png> <./figure/g1.png> <./figure/g2.png>]
-<figure/cl1.jpg, id=844, 612.78937pt x 370.76016pt>
-File: figure/cl1.jpg Graphic file (type jpg)
-<use figure/cl1.jpg>
-Package pdftex.def Info: figure/cl1.jpg  used on input line 975.
-(pdftex.def)             Requested size: 204.85672pt x 123.9466pt.
-<figure/cl2.png, id=845, 243.1514pt x 193.8457pt>
-File: figure/cl2.png Graphic file (type png)
-<use figure/cl2.png>
-Package pdftex.def Info: figure/cl2.png  used on input line 981.
-(pdftex.def)             Requested size: 169.0103pt x 134.74158pt.
-<figure/cl3.png, id=846, 487.33418pt x 366.23311pt>
-File: figure/cl3.png Graphic file (type png)
-<use figure/cl3.png>
-Package pdftex.def Info: figure/cl3.png  used on input line 991.
-(pdftex.def)             Requested size: 256.07481pt x 192.44849pt.
- [27 <./figure/cl1.jpg> <./figure/cl2.png> <./figure/cl3.png>]
-<figure/ka.png, id=857, 373.5803pt x 152.2488pt>
-File: figure/ka.png Graphic file (type png)
-<use figure/ka.png>
-Package pdftex.def Info: figure/ka.png  used on input line 1002.
-(pdftex.def)             Requested size: 256.07481pt x 104.36412pt.
-<figure/ka1.png, id=858, 284.7438pt x 137.7948pt>
-File: figure/ka1.png Graphic file (type png)
-<use figure/ka1.png>
-Package pdftex.def Info: figure/ka1.png  used on input line 1012.
-(pdftex.def)             Requested size: 204.85672pt x 99.13647pt.
-<figure/ka2.png, id=859, 194.6472pt x 195.6108pt>
-File: figure/ka2.png Graphic file (type png)
-<use figure/ka2.png>
-Package pdftex.def Info: figure/ka2.png  used on input line 1018.
-(pdftex.def)             Requested size: 102.42836pt x 102.93597pt.
-<figure/tong1.png, id=860, 201.56555pt x 201.56555pt>
-File: figure/tong1.png Graphic file (type png)
-<use figure/tong1.png>
-Package pdftex.def Info: figure/tong1.png  used on input line 1032.
-(pdftex.def)             Requested size: 107.55486pt x 107.55507pt.
-<figure/tong2.png, id=861, 196.0926pt x 196.0926pt>
-File: figure/tong2.png Graphic file (type png)
-<use figure/tong2.png>
-Package pdftex.def Info: figure/tong2.png  used on input line 1038.
-(pdftex.def)             Requested size: 107.55486pt x 107.55803pt.
-<figure/tong3.png, id=862, 265.16713pt x 198.7425pt>
-File: figure/tong3.png Graphic file (type png)
-<use figure/tong3.png>
-Package pdftex.def Info: figure/tong3.png  used on input line 1044.
-(pdftex.def)             Requested size: 143.40126pt x 107.4831pt.
- [28 <./figure/ka.png> <./figure/ka1.png> <./figure/ka2.png> <./figure/tong1.png> <./figure/tong2.png> <./figure/tong3.png>]
-<figure/hua.png, id=876, 302.26439pt x 146.49324pt>
-File: figure/hua.png Graphic file (type png)
-<use figure/hua.png>
-Package pdftex.def Info: figure/hua.png  used on input line 1057.
-(pdftex.def)             Requested size: 153.64644pt x 74.4669pt.
-<figure/jx.png, id=879, 301.125pt x 301.125pt>
-File: figure/jx.png Graphic file (type png)
-<use figure/jx.png>
-Package pdftex.def Info: figure/jx.png  used on input line 1066.
-(pdftex.def)             Requested size: 153.64644pt x 153.64981pt.
- (./Robomaster.bbl)
+[15]
+
+LaTeX Warning: File `mao1.png' not found on input line 470.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:470: Package pdftex.def Error: File `mao1.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.470 ...degraphics[width=0.3\textwidth]{mao1.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `mao2.png' not found on input line 489.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:489: Package pdftex.def Error: File `mao2.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.489 ...cludegraphics[width=\textwidth]{mao2.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `mao3.png' not found on input line 495.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:495: Package pdftex.def Error: File `mao3.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.495 ...cludegraphics[width=\textwidth]{mao3.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `mao4.png' not found on input line 500.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:500: Package pdftex.def Error: File `mao4.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.500 ...cludegraphics[width=\textwidth]{mao4.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[16]
+
+LaTeX Warning: File `zhou1.png' not found on input line 519.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:519: Package pdftex.def Error: File `zhou1.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.519 ...ludegraphics[width=\textwidth]{zhou1.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `zhou2.png' not found on input line 525.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:525: Package pdftex.def Error: File `zhou2.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.525 ...ludegraphics[width=\textwidth]{zhou2.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[17]
+
+LaTeX Warning: File `zhou3.png' not found on input line 538.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:538: Package pdftex.def Error: File `zhou3.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.538 ...ludegraphics[width=\textwidth]{zhou3.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `zhou4.png' not found on input line 544.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:544: Package pdftex.def Error: File `zhou4.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.544 ...ludegraphics[width=\textwidth]{zhou4.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[18]
+
+LaTeX Warning: File `zhou1.png' not found on input line 557.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:557: Package pdftex.def Error: File `zhou1.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.557 ...egraphics[width=0.3\textwidth]{zhou1.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `zhou6.png' not found on input line 570.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:570: Package pdftex.def Error: File `zhou6.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.570 ...ludegraphics[width=\textwidth]{zhou6.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `zhou7.png' not found on input line 576.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:576: Package pdftex.def Error: File `zhou7.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.576 ...ludegraphics[width=\textwidth]{zhou7.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[19]
+
+LaTeX Warning: File `zhou8.png' not found on input line 587.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:587: Package pdftex.def Error: File `zhou8.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.587 ...egraphics[width=0.3\textwidth]{zhou8.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `zhou9.png' not found on input line 596.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:596: Package pdftex.def Error: File `zhou9.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.596 ...egraphics[width=0.4\textwidth]{zhou9.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `th1.png' not found on input line 606.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:606: Package pdftex.def Error: File `th1.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.606 ...udegraphics[width=0.3\textwidth]{th1.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[20]
+
+LaTeX Warning: File `th2.png' not found on input line 615.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:615: Package pdftex.def Error: File `th2.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.615 ...udegraphics[width=0.3\textwidth]{th2.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `tan3.png' not found on input line 634.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:634: Package pdftex.def Error: File `tan3.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.634 ...degraphics[width=0.3\textwidth]{tan3.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[21]
+
+LaTeX Warning: File `th.png' not found on input line 643.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:643: Package pdftex.def Error: File `th.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.643 ...ludegraphics[width=0.3\textwidth]{th.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `th3.png' not found on input line 653.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:653: Package pdftex.def Error: File `th3.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.653 ...udegraphics[width=0.3\textwidth]{th3.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: File `th4.png' not found on input line 663.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:663: Package pdftex.def Error: File `th4.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.663 ...udegraphics[width=0.3\textwidth]{th4.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[22]
+
+LaTeX Warning: File `qi1.png' not found on input line 676.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:676: Package pdftex.def Error: File `qi1.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.676 ...udegraphics[width=0.3\textwidth]{qi1.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: File `qi2.png' not found on input line 688.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:688: Package pdftex.def Error: File `qi2.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.688 ...udegraphics[width=0.3\textwidth]{qi2.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: File `qi3.png' not found on input line 696.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:696: Package pdftex.def Error: File `qi3.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.696 ...udegraphics[width=0.3\textwidth]{qi3.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[23]
+
+LaTeX Warning: File `qi4.png' not found on input line 709.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:709: Package pdftex.def Error: File `qi4.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.709 ...ncludegraphics[width=\textwidth]{qi4.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `qi5.png' not found on input line 715.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:715: Package pdftex.def Error: File `qi5.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.715 ...ncludegraphics[width=\textwidth]{qi5.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[24]
+
+LaTeX Warning: File `qi6.png' not found on input line 726.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:726: Package pdftex.def Error: File `qi6.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.726 ...ncludegraphics[width=\textwidth]{qi6.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `qi7.png' not found on input line 732.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:732: Package pdftex.def Error: File `qi7.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.732 ...ncludegraphics[width=\textwidth]{qi7.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[25]
+
+LaTeX Warning: File `dj1.png' not found on input line 750.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:750: Package pdftex.def Error: File `dj1.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.750 ...ncludegraphics[width=\textwidth]{dj1.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `dj2.png' not found on input line 756.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:756: Package pdftex.def Error: File `dj2.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.756 ...ncludegraphics[width=\textwidth]{dj2.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[26]
+
+LaTeX Warning: File `dj3.png' not found on input line 790.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:790: Package pdftex.def Error: File `dj3.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.790 ...ncludegraphics[width=\textwidth]{dj3.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `dj4.png' not found on input line 796.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:796: Package pdftex.def Error: File `dj4.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.796 ...ncludegraphics[width=\textwidth]{dj4.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[27]
+
+LaTeX Warning: File `dj5.png' not found on input line 809.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:809: Package pdftex.def Error: File `dj5.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.809 ...ncludegraphics[width=\textwidth]{dj5.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `dj6.png' not found on input line 815.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:815: Package pdftex.def Error: File `dj6.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.815 ...ncludegraphics[width=\textwidth]{dj6.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `dj7.png' not found on input line 828.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:828: Package pdftex.def Error: File `dj7.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.828 ...ncludegraphics[width=\textwidth]{dj7.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `dj8.png' not found on input line 834.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:834: Package pdftex.def Error: File `dj8.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.834 ...ncludegraphics[width=\textwidth]{dj8.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[28]
+
+LaTeX Warning: File `an1.png' not found on input line 852.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:852: Package pdftex.def Error: File `an1.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.852 ...ncludegraphics[width=\textwidth]{an1.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `an2.png' not found on input line 858.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:858: Package pdftex.def Error: File `an2.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.858 ...ncludegraphics[width=\textwidth]{an2.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[29]
+
+LaTeX Warning: File `duo1.png' not found on input line 875.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:875: Package pdftex.def Error: File `duo1.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.875 ...cludegraphics[width=\textwidth]{duo1.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `duo2.png' not found on input line 881.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:881: Package pdftex.def Error: File `duo2.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.881 ...cludegraphics[width=\textwidth]{duo2.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `tb1.png' not found on input line 897.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:897: Package pdftex.def Error: File `tb1.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.897 ...ncludegraphics[width=\textwidth]{tb1.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `tb2.png' not found on input line 903.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:903: Package pdftex.def Error: File `tb2.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.903 ...ncludegraphics[width=\textwidth]{tb2.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[30]
+
+LaTeX Warning: File `ll1.png' not found on input line 928.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:928: Package pdftex.def Error: File `ll1.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.928 ...ncludegraphics[width=\textwidth]{ll1.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `ll2.png' not found on input line 934.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:934: Package pdftex.def Error: File `ll2.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.934 ...ncludegraphics[width=\textwidth]{ll2.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[31]
+
+LaTeX Warning: File `g1.png' not found on input line 948.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:948: Package pdftex.def Error: File `g1.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.948 ...includegraphics[width=\textwidth]{g1.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `g2.png' not found on input line 954.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:954: Package pdftex.def Error: File `g2.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.954 ...includegraphics[width=\textwidth]{g2.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[32]
+
+LaTeX Warning: File `cl1.jpg' not found on input line 975.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:975: Package pdftex.def Error: File `cl1.jpg' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.975 ...ncludegraphics[width=\textwidth]{cl1.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `cl2.png' not found on input line 981.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:981: Package pdftex.def Error: File `cl2.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.981 ...ncludegraphics[width=\textwidth]{cl2.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `cl3.png' not found on input line 991.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:991: Package pdftex.def Error: File `cl3.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.991 ...udegraphics[width=0.5\textwidth]{cl3.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: File `ka.png' not found on input line 1002.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:1002: Package pdftex.def Error: File `ka.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1002 ...udegraphics[width=0.5\textwidth]{ka.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: File `ka1.png' not found on input line 1012.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:1012: Package pdftex.def Error: File `ka1.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1012 ...cludegraphics[width=\textwidth]{ka1.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `ka2.png' not found on input line 1018.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:1018: Package pdftex.def Error: File `ka2.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1018 ...cludegraphics[width=\textwidth]{ka2.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[33]
+
+LaTeX Warning: File `tong1.png' not found on input line 1032.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:1032: Package pdftex.def Error: File `tong1.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1032 ...udegraphics[width=\textwidth]{tong1.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `tong2.png' not found on input line 1038.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:1038: Package pdftex.def Error: File `tong2.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1038 ...udegraphics[width=\textwidth]{tong2.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `tong3.png' not found on input line 1044.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:1044: Package pdftex.def Error: File `tong3.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1044 ...udegraphics[width=\textwidth]{tong3.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[34]
+
+LaTeX Warning: File `hua.png' not found on input line 1057.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:1057: Package pdftex.def Error: File `hua.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1057 ...degraphics[width=0.3\textwidth]{hua.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[35]
+
+LaTeX Warning: File `jx.png' not found on input line 1066.
+
+
+d:/LEARNING/github/Robomaster-training-handbook/Robomaster.tex:1066: Package pdftex.def Error: File `jx.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1066 ...udegraphics[width=0.3\textwidth]{jx.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(./Robomaster.bbl)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1076.
- [29 <./figure/hua.png> <./figure/jx.png>]
+ [36]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 1076.
  (./Robomaster.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1076.
@@ -1473,18 +2439,18 @@ Package rerunfilecheck Info: File `Robomaster.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1076.
  ) 
 Here is how much of TeX's memory you used:
- 28134 strings out of 492623
- 472452 string characters out of 6129060
- 481644 words of memory out of 5000000
- 31066 multiletter control sequences out of 15000+600000
- 615757 words of font info for 335 fonts, out of 8000000 for 9000
+ 27779 strings out of 492623
+ 465052 string characters out of 6129060
+ 482644 words of memory out of 5000000
+ 30701 multiletter control sequences out of 15000+600000
+ 615925 words of font info for 336 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,9n,63p,810b,732s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><d:/software/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/software/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/software/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/software/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/software/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/software/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/software/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><d:/software/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/software/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><d:/software/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/software/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Robomaster.pdf (29 pages, 17644232 bytes).
+ 42i,8n,63p,824b,732s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><d:/software/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/software/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/software/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/software/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/software/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/software/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/software/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><d:/software/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/software/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><d:/software/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/software/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><d:/software/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Robomaster.pdf (36 pages, 875549 bytes).
 PDF statistics:
- 1403 PDF objects out of 1440 (max. 8388607)
- 946 compressed objects within 10 object streams
- 164 named destinations out of 1000 (max. 500000)
- 1193 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1255 PDF objects out of 1440 (max. 8388607)
+ 971 compressed objects within 10 object streams
+ 171 named destinations out of 1000 (max. 500000)
+ 733 words of extra memory for PDF output out of 10000 (max. 10000000)
 
